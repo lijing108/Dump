@@ -5,6 +5,9 @@ import group.dump.web.exception.DumpException;
 import java.math.BigDecimal;
 import java.math.BigInteger;
 
+/**
+ * @author yuanguangxin
+ */
 public class RequestParameterConverter {
 
     @SuppressWarnings("unchecked")

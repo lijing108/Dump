@@ -8,6 +8,9 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 
+/**
+ * @author yuanguangxin
+ */
 public class DumpServletDispatcher extends HttpServlet {
 
     @Override

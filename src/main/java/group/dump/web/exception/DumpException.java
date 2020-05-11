@@ -1,5 +1,8 @@
 package group.dump.web.exception;
 
+/**
+ * @author yuanguangxin
+ */
 public class DumpException extends RuntimeException {
 
     public DumpException(String msg) {

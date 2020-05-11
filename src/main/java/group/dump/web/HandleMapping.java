@@ -11,6 +11,9 @@ import java.util.HashMap;
 import java.util.Map;
 import java.util.Set;
 
+/**
+ * @author yuanguangxin
+ */
 public class HandleMapping {
     private static final Map<String, HandlerMethod> mappings = new HashMap<>();
 

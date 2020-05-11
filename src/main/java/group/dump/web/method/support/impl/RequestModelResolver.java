@@ -9,6 +9,9 @@ import javax.servlet.http.HttpServletRequest;
 import java.lang.reflect.Field;
 import java.lang.reflect.Parameter;
 
+/**
+ * @author yuanguangxin
+ */
 public class RequestModelResolver implements HandlerMethodArgumentResolver {
     @Override
     public Boolean support(Parameter parameter) {

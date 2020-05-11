@@ -2,6 +2,9 @@ package group.dump.web.method.model;
 
 import java.lang.reflect.Method;
 
+/**
+ * @author yuanguangxin
+ */
 public class HandlerMethod {
 
     private Object bean;

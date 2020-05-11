@@ -15,6 +15,9 @@ import java.lang.reflect.Parameter;
 import java.util.ArrayList;
 import java.util.List;
 
+/**
+ * @author yuanguangxin
+ */
 public class HandleMethodAdapter {
 
     public static final String REDIRECT_URL_PREFIX = "redirect:";

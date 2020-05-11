@@ -10,6 +10,9 @@ import group.dump.web.method.support.HandlerMethodArgumentResolver;
 import javax.servlet.http.HttpServletRequest;
 import java.lang.reflect.Parameter;
 
+/**
+ * @author yuanguangxin
+ */
 public class RequestParamResolver implements HandlerMethodArgumentResolver {
     @Override
     public Boolean support(Parameter parameter) {

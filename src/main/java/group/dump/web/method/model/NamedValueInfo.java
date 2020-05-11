@@ -1,5 +1,8 @@
 package group.dump.web.method.model;
 
+/**
+ * @author yuanguangxin
+ */
 public class NamedValueInfo {
 
     private String name;

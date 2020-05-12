@@ -4,6 +4,7 @@ import group.dump.web.annotation.ResponseBody;
 import group.dump.web.exception.DumpException;
 import group.dump.web.method.model.HandlerMethod;
 import group.dump.web.method.support.HandlerMethodArgumentResolver;
+import group.dump.web.method.support.impl.BuildInObjectsResolver;
 import group.dump.web.method.support.impl.RequestModelResolver;
 import group.dump.web.method.support.impl.RequestParamResolver;
 
@@ -30,6 +31,7 @@ public class HandleMethodAdapter {
         List<HandlerMethodArgumentResolver> resolvers = new ArrayList<>();
         resolvers.add(new RequestParamResolver());
         resolvers.add(new RequestModelResolver());
+        resolvers.add(new BuildInObjectsResolver());
         Parameter[] handleMethodParameters = method.getParameters();
         Object[] args = new Object[handleMethodParameters.length];
         for (int i = 0; i < handleMethodParameters.length; i++) {
